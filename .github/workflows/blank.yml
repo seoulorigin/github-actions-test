@@ -45,6 +45,9 @@ jobs:
         run: |
           echo "Hello, Lint!"
           echo "Goodbye, Lint!"
+
+      - name: Force fail
+        run: exit 1
           
   test:
     name: Test!
