@@ -36,3 +36,21 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+  lint:
+    name: Lint!
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint step
+        run: |
+          echo "Hello, Lint!"
+          echo "Goodbye, Lint!"
+          
+  test:
+    name: Test!
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test step
+        run: |
+          echo "Hello, Test!"
+          echo "Goodbye, Test!"
